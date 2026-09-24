@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "dining_pages",
+  "info": {
+    "singularName": "dining-page",
+    "pluralName": "dining-pages",
+    "displayName": "Dining Page",
+    "description": "Dining Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Dining"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.inner-hero"
+    },
+    "gastronomicEdenTitle": {
+      "type": "string"
+    },
+    "gastronomicEdenDescription": {
+      "type": "text"
+    },
+    "patioTitle": {
+      "type": "string"
+    },
+    "patioDescription": {
+      "type": "text"
+    },
+    "specialityTitle": {
+      "type": "string"
+    },
+    "specialityDescription": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

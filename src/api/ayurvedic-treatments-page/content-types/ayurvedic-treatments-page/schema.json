@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "ayurvedic_treatments_pages",
+  "info": {
+    "singularName": "ayurvedic-treatments-page",
+    "pluralName": "ayurvedic-treatments-pages",
+    "displayName": "Ayurvedic Treatments Page",
+    "description": "Ayurvedic Treatments Listing Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Ayurvedic Treatments"
+    },
+    "hero": {
+      "type": "component",
+      "component": "sections.inner-hero",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

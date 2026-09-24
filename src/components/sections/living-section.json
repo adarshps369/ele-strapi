@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_living_sections",
+  "info": {
+    "displayName": "Living Section",
+    "icon": "house"
+  },
+  "options": {},
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "living_spaces": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::living-space.living-space"
+    }
+  }
+}

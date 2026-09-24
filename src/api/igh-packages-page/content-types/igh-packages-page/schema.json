@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "igh_packages_pages",
+  "info": {
+    "singularName": "igh-packages-page",
+    "pluralName": "igh-packages-pages",
+    "displayName": "IGH Packages Page",
+    "description": "IGH Packages Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "IGH Special Packages"
+    },
+    "hero": {
+      "type": "component",
+      "component": "sections.inner-hero",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "featuredPackage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::package.package"
+    }
+  }
+}

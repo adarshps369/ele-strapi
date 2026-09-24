@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_seo_analytics",
+  "info": {
+    "singularName": "global-seo-analytics",
+    "pluralName": "global-seo-analytics-list",
+    "displayName": "Global SEO & Analytics",
+    "description": "Manage site-wide Analytics IDs, Search Console Verification, and Global Head/Body Scripts",
+    "mainField": "siteName"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "default": "The Elephant Court Resort"
+    },
+    "defaultMetaTitle": {
+      "type": "string"
+    },
+    "defaultMetaDescription": {
+      "type": "text"
+    },
+    "googleAnalyticsId": {
+      "type": "string"
+    },
+    "googleTagManagerId": {
+      "type": "string"
+    },
+    "searchConsoleVerification": {
+      "type": "string"
+    },
+    "facebookPixelId": {
+      "type": "string"
+    },
+    "headScripts": {
+      "type": "text"
+    },
+    "bodyStartScripts": {
+      "type": "text"
+    },
+    "bodyEndScripts": {
+      "type": "text"
+    }
+  }
+}

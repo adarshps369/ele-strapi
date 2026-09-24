@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_blogs_sections",
+  "info": {
+    "displayName": "Blogs Section",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "main_title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-post.blog-post"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_ayurveda_pages",
+  "info": {
+    "singularName": "about-ayurveda-page",
+    "pluralName": "about-ayurveda-pages",
+    "displayName": "About Ayurveda Page",
+    "description": "About Ayurveda Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About Ayurveda"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.inner-hero"
+    },
+    "scienceOfLifeTitle": {
+      "type": "string"
+    },
+    "scienceOfLifeDescription": {
+      "type": "text"
+    },
+    "howDoesItWorkTitle": {
+      "type": "string"
+    },
+    "howDoesItWorkDescription": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

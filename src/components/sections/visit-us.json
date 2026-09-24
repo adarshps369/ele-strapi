@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_visit_uses",
+  "info": {
+    "displayName": "Visit Us Section",
+    "icon": "paper-plane"
+  },
+  "options": {},
+  "attributes": {
+    "left_box_title": {
+      "type": "string"
+    },
+    "route_text": {
+      "type": "string"
+    },
+    "route_url": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "right_box_title": {
+      "type": "string"
+    },
+    "distances": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.distance-item"
+    }
+  }
+}

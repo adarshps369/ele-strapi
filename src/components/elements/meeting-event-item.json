@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_meeting_event_items",
+  "info": {
+    "displayName": "Meeting Event Item",
+    "icon": "calendar",
+    "description": "Meeting or event item with title, description, gallery images, and link"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

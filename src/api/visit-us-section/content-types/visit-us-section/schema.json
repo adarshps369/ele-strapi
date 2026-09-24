@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "visit_us_sections",
+  "info": {
+    "singularName": "visit-us-section",
+    "pluralName": "visit-us-sections",
+    "displayName": "Global Visit Us",
+    "description": "Manage site-wide Visit Us & Distances information centrally",
+    "mainField": "left_box_title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "left_box_title": {
+      "type": "string",
+      "default": "VISIT US"
+    },
+    "route_text": {
+      "type": "string",
+      "default": "Click here for getting </br> the route to me"
+    },
+    "route_url": {
+      "type": "string",
+      "default": "https://maps.google.com"
+    },
+    "phone": {
+      "type": "string",
+      "default": "+91 8086418199"
+    },
+    "email": {
+      "type": "string",
+      "default": "reservations@Intergrandhotels.Com"
+    },
+    "right_box_title": {
+      "type": "string",
+      "default": "DISTANCE TO THEKKADY FROM MAJOR TOWNS"
+    },
+    "distances": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.distance-item"
+    }
+  }
+}

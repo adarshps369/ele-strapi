@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_elements_amenity_items",
+  "info": {
+    "displayName": "Amenity Item",
+    "icon": "star",
+    "description": "Room or facility amenity with icon key or SVG upload"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "enumeration",
+      "enum": [
+        "coffee",
+        "wifi",
+        "bed",
+        "sqft",
+        "balcony",
+        "room_service",
+        "tv",
+        "garden_view",
+        "mini_bar",
+        "safe_locker",
+        "bath",
+        "pool",
+        "gym",
+        "ac",
+        "parking",
+        "shuttle",
+        "breakfast",
+        "sitout"
+      ]
+    },
+    "iconImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

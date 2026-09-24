@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_package_tariffs",
+  "info": {
+    "displayName": "Package Tariff",
+    "icon": "shopping-cart"
+  },
+  "options": {},
+  "attributes": {
+    "validity": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "extraDetails": {
+      "type": "json"
+    },
+    "inclusions": {
+      "type": "json"
+    },
+    "landscapeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "portraitLeftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "portraitRightImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

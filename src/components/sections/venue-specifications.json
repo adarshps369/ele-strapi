@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_venue_specifications",
+  "info": {
+    "displayName": "Venue Specifications Section",
+    "icon": "house"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.venue-spec"
+    }
+  }
+}

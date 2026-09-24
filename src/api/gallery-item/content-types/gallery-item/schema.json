@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_items",
+  "info": {
+    "singularName": "gallery-item",
+    "pluralName": "gallery-items",
+    "displayName": "Gallery",
+    "description": "Resort gallery media items (Resort, Destination, 360 virtual tours)",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "default": "resort",
+      "enum": [
+        "resort",
+        "destination",
+        "virtual_360"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "default": "image",
+      "enum": [
+        "image",
+        "video",
+        "virtual_360"
+      ]
+    },
+    "aspect": {
+      "type": "enumeration",
+      "default": "short",
+      "enum": [
+        "short",
+        "long"
+      ]
+    },
+    "column": {
+      "type": "integer"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "embedUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_facilities_sections",
+  "info": {
+    "displayName": "Facilities Section",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "component": "elements.button",
+      "repeatable": false
+    },
+    "facilities": {
+      "type": "component",
+      "component": "elements.facility-item",
+      "repeatable": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

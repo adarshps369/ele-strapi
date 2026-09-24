@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_meetings_events_sections",
+  "info": {
+    "displayName": "Meetings & Events Section",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "meetings_events": {
+      "type": "component",
+      "component": "elements.meeting-event-item",
+      "repeatable": true
+    }
+  }
+}

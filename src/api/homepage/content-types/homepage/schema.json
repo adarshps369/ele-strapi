@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Home Page",
+    "description": "Elephant Court Main Homepage Content Structure",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "hero": {
+      "type": "component",
+      "component": "sections.hero",
+      "repeatable": false
+    },
+    "about": {
+      "type": "component",
+      "component": "sections.about",
+      "repeatable": false
+    },
+    "living": {
+      "type": "component",
+      "component": "sections.living-section",
+      "repeatable": false
+    },
+    "facilities": {
+      "type": "component",
+      "component": "sections.facilities-section",
+      "repeatable": false
+    },
+    "meetings_events": {
+      "type": "component",
+      "component": "sections.meetings-events-section",
+      "repeatable": false
+    },
+    "activities": {
+      "type": "component",
+      "component": "sections.activities-section",
+      "repeatable": false
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "sections.testimonials-section",
+      "repeatable": false
+    },
+    "blogs": {
+      "type": "component",
+      "component": "sections.blogs-section",
+      "repeatable": false
+    },
+    "destinations": {
+      "type": "component",
+      "component": "sections.destinations-section",
+      "repeatable": false
+    }
+  }
+}
+

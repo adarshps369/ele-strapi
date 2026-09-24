@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_location_items",
+  "info": {
+    "displayName": "Location Item",
+    "icon": "pin"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "mapUrl": {
+      "type": "string"
+    }
+  }
+}

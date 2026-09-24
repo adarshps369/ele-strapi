@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_dual_stories",
+  "info": {
+    "displayName": "Dual Story Section",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "leftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "leftImageAlt": {
+      "type": "string"
+    },
+    "rightImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "rightImageAlt": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ayurvedic_treatments",
+  "info": {
+    "singularName": "ayurvedic-treatment",
+    "pluralName": "ayurvedic-treatments",
+    "displayName": "Ayurvedic Treatments",
+    "description": "Ayurvedic treatment packages and therapy models",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

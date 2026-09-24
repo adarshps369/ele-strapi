@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "meetings_events_pages",
+  "info": {
+    "singularName": "meetings-events-page",
+    "pluralName": "meetings-events-pages",
+    "displayName": "Meetings Events Page",
+    "description": "Meetings and Events Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Meetings & Events"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.inner-hero"
+    },
+    "dualStory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.dual-story"
+    },
+    "venueSpecs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.venue-specifications"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.image-faq"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

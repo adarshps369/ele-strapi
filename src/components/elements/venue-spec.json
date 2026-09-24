@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_venue_specs",
+  "info": {
+    "displayName": "Venue Specification Item",
+    "icon": "house"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "capacity": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

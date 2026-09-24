@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "activities_pages",
+  "info": {
+    "singularName": "activities-page",
+    "pluralName": "activities-pages",
+    "displayName": "Activities Page",
+    "description": "Activities Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Activities"
+    },
+    "hero": {
+      "type": "component",
+      "component": "sections.inner-hero",
+      "repeatable": false
+    },
+    "introTitle": {
+      "type": "string"
+    },
+    "introDescription": {
+      "type": "text"
+    },
+    "introLargeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    },
+    "introSmallImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_inner_heroes",
+  "info": {
+    "displayName": "Inner Page Hero",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bgType": {
+      "type": "enumeration",
+      "default": "image",
+      "enum": [
+        "image",
+        "video"
+      ]
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    }
+  }
+}

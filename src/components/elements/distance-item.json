@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_distance_items",
+  "info": {
+    "displayName": "Distance Item",
+    "icon": "pin"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

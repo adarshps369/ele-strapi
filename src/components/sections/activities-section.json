@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_activities_sections",
+  "info": {
+    "displayName": "Activities Section",
+    "icon": "heart"
+  },
+  "options": {},
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.button"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity"
+    }
+  }
+}

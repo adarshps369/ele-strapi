@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_destinations_sections",
+  "info": {
+    "displayName": "Destinations Section",
+    "icon": "pin"
+  },
+  "options": {},
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bg_video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos", "files"]
+    },
+    "destinations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::destination.destination"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "yoga_meditation_pages",
+  "info": {
+    "singularName": "yoga-meditation-page",
+    "pluralName": "yoga-meditation-pages",
+    "displayName": "Yoga Meditation Page",
+    "description": "Yoga and Meditation Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Yoga & Meditation"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.inner-hero"
+    },
+    "yogaTitle": {
+      "type": "string"
+    },
+    "yogaDescription": {
+      "type": "text"
+    },
+    "lifestyleTitle": {
+      "type": "string"
+    },
+    "lifestyleDescription": {
+      "type": "text"
+    },
+    "vedicTitle": {
+      "type": "string"
+    },
+    "vedicDescription": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

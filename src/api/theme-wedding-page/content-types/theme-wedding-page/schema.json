@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "theme_wedding_pages",
+  "info": {
+    "singularName": "theme-wedding-page",
+    "pluralName": "theme-wedding-pages",
+    "displayName": "Theme Wedding Page",
+    "description": "Theme Wedding Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Theme Wedding"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.inner-hero"
+    },
+    "dualStory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.dual-story"
+    },
+    "venueSpecs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.venue-specifications"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.image-faq"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

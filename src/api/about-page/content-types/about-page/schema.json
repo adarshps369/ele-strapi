@@ -1,0 +1,107 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": "About Us Page Content Architecture",
+    "mainField": "title"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "About Us"
+    },
+    "hero": {
+      "type": "component",
+      "component": "sections.inner-hero",
+      "repeatable": false
+    },
+    "moreAboutTitle": {
+      "type": "string"
+    },
+    "moreAboutLeftDescription": {
+      "type": "text"
+    },
+    "moreAboutRightDescription": {
+      "type": "text"
+    },
+    "whyChooseTitle": {
+      "type": "string"
+    },
+    "moreAboutRightLargeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "moreAboutRightSmallImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "moreAboutLeftVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos",
+        "files",
+        "images"
+      ]
+    },
+    "whyChooseLeftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "whyChooseLeftAlt": {
+      "type": "string"
+    },
+    "whyChooseLeftDescription": {
+      "type": "text"
+    },
+    "whyChooseRightImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "whyChooseRightAlt": {
+      "type": "string"
+    },
+    "whyChooseRightDescription": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "sections.testimonials-section",
+      "repeatable": false
+    },
+    "blogs": {
+      "type": "component",
+      "component": "sections.blogs-section",
+      "repeatable": false
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_section_titles",
+  "info": {
+    "displayName": "Section Title",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
