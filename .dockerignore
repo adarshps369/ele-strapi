@@ -1,0 +1,8 @@
+node_modules/
+.tmp/
+.cache/
+.git/
+.gitignore
+.env
+.env.*
+public/uploads/
